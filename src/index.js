@@ -15,7 +15,7 @@ const help = require("./Commands/help");
 const quizz = require("./Commands/quizz");
 
 // Events
-
+const actionlog = require("./Events/actionlog");
 
 bot.once("ready", () => {
     console.log("Initialisation du statut...");
