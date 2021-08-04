@@ -7,7 +7,7 @@ const bot = new Eris.CommandClient(config.token, {
     }, {
         prefix: "+",
         description: "Bot privé du serveur",
-        owner: "D",
+        owner: `<@${config.ownerID}>`,
         defaultHelpCommand: false,
         defaultCommandOptions: {
             caseInsensitive: true,
