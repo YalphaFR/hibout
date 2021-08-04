@@ -1,5 +1,5 @@
 const config = {
-    token: process.env.TOKEN,
+    token: "Bot " + process.env.TOKEN,
     ownerID: "322492552601272320",
     status: "dnd", 
     game: {name: "le chant des oiseaux", type: 2},
