@@ -34,7 +34,6 @@ bot.registerCommand("quizz", (msg, args) => {
                 || msg.member.roles.includes(config.rewardRoleIDs.ornithosServerExpertRoleID));
             },
         },
-        description: "Faire parler le bot",
-        fullDescription: "Envoyer un message qui sera retranscrit identiquement par le bot, dans le salon en question",
-        usage: `Bonjour, je me nomme ...`,
+        description: "Passer le quizz pour obtenir un rôle",
+        fullDescription: "Faire le quizz vous indiquera votre niveau ornithologique actuel",
     });
