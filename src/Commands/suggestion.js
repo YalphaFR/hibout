@@ -25,7 +25,7 @@ bot.registerCommand("suggestion", (msg, args) => {
         argsRequired: true,
         requirements: {
             custom: function(msg) {
-                return [config.channelIDs.ornithosServerCommandChannelID, config.channelIDs.biodivServerCommandChannelID].includes(msg.channel.id) 
+                return config.channelIDs.ornithosServerCommandChannelID === msg.channel.id; 
             }
         },
         description: "Faire une suggestion pour le serveur",
