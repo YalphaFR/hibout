@@ -10,17 +10,12 @@ const config = {
 
     serverIDs: {
         ornithosServerID: "741757227416682517",
-        biodivServerID: "852588520639692831",
     }, 
 
     channelIDs: {
         ornithosServerSuggestionChannelID: "781244589339181077",
         ornithosServerCommandChannelID: "741991881491087378",
         ornithosServerBienvenueChannelID: "741986142223597661",
-
-        biodivServerSuggestionChannelID: "852588522116612147",
-        biodivServerCommandChannelID: "852588521628762197",
-        biodivServerBienvenueChannelID: "852588521390473226",
     },
 
     rewardRoleIDs: {
