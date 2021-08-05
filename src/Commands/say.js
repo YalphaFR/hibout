@@ -5,7 +5,7 @@ const config = require("../config");
 bot.registerCommand("say", (msg, args) => {
     msg.channel.createMessage({embed: {
         color: 0x7da27e,
-        description: msg.content.slice(config.prefix.length)
+        description: msg.content.split(" ").slice(1).join(" ")
     }});
     }, {
         argsRequired: true,
